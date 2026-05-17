@@ -1,0 +1,33 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Coffee R Us",
+      "description": "The go-to store for coffee lovers who want rich flavor and bright service.",
+      "phone_number": "555-5555"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Vanilla Bean",
+      "description": "Medium roast with warm vanilla and caramel notes.",
+      "origin": "Colombia",
+      "price": 10.0
+    },
+    {
+      "id": 2,
+      "name": "House Blend",
+      "description": "Dark roast with bold chocolate and toasted almond flavor.",
+      "origin": "Vietnam",
+      "price": 12.0
+    },
+    {
+      "id": 3,
+      "name": "Sunrise Espresso",
+      "description": "Bright and crisp espresso with citrus highlights.",
+      "origin": "Ethiopia",
+      "price": 13.5
+    }
+  ]
+}
