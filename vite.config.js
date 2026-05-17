@@ -6,12 +6,11 @@ export default defineConfig(({ mode }) => {
   const isDocs = process.env.BUILD_TARGET === 'docs'
 
   return {
-    root: 'src',
-    base: isDocs ? '/showcase-app/docs/' : '/showcase-app/',
-    publicDir: '../public',
+    base: isDocs ? '/showcase-app/docs/' : '/',
+    publicDir: 'public',
     plugins: [react()],
     build: {
-      outDir: isDocs ? '../docs' : '../dist',
+      outDir: isDocs ? 'docs' : 'dist',
       emptyOutDir: true,
     },
   }
