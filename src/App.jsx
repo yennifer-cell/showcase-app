@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   return (
     <ProductsProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/showcase-app">
         <div className="app-shell">
           <Header />
           <main className="page-content">
